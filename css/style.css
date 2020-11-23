@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	color: #777;
+}
+h1,h2{
+
+}
+p{
+
+}
+table{
+	border: 1px solid #000;	
+}
+tr, td, th{
+	border: 1px solid #000;	
+	padding: 3px 10px;
+}
+
+.table_row {
+    display: flex;
+    align-items: center;
+    flex: 0 0 54%;
+    max-width: 68%;
+}
+.table_cell {
+    border: 1px solid #000;
+    padding: 3px 10px;
+    border-right: none;
+    flex: 0 0 10%;
+    overflow: visible;
+}
+.table_cell:last-child {
+    border: 1px solid #000;
+
+}
